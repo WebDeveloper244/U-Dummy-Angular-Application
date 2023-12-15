@@ -1,0 +1,5 @@
+<app-header></app-header>
+<div class="main">
+    <app-creat-post (postCreated)="givingPost($event)"></app-creat-post>
+    <app-post-list [addedPosts]="posts"></app-post-list>
+</div>
